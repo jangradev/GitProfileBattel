@@ -114,8 +114,6 @@ export default class Battel extends React.Component {
       return (
          <main className='stack main-stack animate-in'>
             <div className='split'>
-               <h1> Players </h1>
-               <pre>{JSON.stringify(this.state, null, 2)}</pre>
                <Link
                   to={{
                      pathname: '/results',
